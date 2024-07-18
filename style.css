@@ -72,7 +72,7 @@ nav:after {
 
 /* Banner */
 #main-banner {
-    background: url(imagem/banner1.jpg) no-repeat;
+    background: url(banner1.jpg) no-repeat;
     background-size: cover; /*Para ele preencher o máximo da tela que ele conseguir*/
     background-position: 0 40%;/*Para melhor preenchimento da foto no website*/
     position: relative; /*Para ele não pegar essa categoria de herança de outro lugar*/
