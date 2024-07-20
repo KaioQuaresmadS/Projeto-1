@@ -77,6 +77,7 @@ nav:after {
     background-position: 0 40%;/*Para melhor preenchimento da foto no website*/
     position: relative; /*Para ele não pegar essa categoria de herança de outro lugar*/
     margin-top: 100px; /*Para poder desviar da barra fixa do nav*/
+    padding: 15em 0;
 }
 
 #information {
@@ -97,9 +98,47 @@ nav:after {
 #information p {
     margin-top: 30px;
     margin-bottom: 60px;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 300;
     color: #fff;
+}
+
+
+/* Segundo banner */
+
+#history {
+    background: url(banner2.jpeg);
+    background-size: cover; /*Para ele preencher o máximo da tela que ele conseguir*/
+    background-position: 0 25%;/*Para melhor preenchimento da foto no website*/
+    padding: 15em 0;
+    position: relative; /*Para ele não pegar essa categoria de herança de outro lugar*/
+
+}
+.history-container {
+    position: relative;
+    width: 80%;
+    padding-top: 17em;
+    padding-bottom: 17em;
+    margin: 0;
+}
+.history-container h2 {
+    font-size: 36px;
+    color: #f5e6e6;
+    width: 50%;
+    text-align: center;
+}
+
+.history-container .article-text {
+    position: relative;
+    font-size: 19px;
+    color: #ffffff;
+    width: 50%;
+    padding-left: 5px;
+    text-align: center;
+}
+
+.article-btn  {
+    
 }
 
 /* Seção de ações */
@@ -181,4 +220,4 @@ nav:after {
 .article-box input[type=submit]:hover {
     background-color: #038C33;
     color: #242625;
-}   
+}
