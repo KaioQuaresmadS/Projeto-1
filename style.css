@@ -111,7 +111,7 @@ nav:after {
     background: url(banner2.jpeg);
     background-size: cover; /*Para ele preencher o máximo da tela que ele conseguir*/
     background-position: 0 100%;/*Para melhor preenchimento da foto no website*/
-    padding: 15em 0;
+    /* padding: 15em 0; */
     position: relative; /*Para ele não pegar essa categoria de herança de outro lugar*/
 
 }
@@ -119,8 +119,10 @@ nav:after {
     position: relative;
     float: left;
     width: 80%;
-    padding-bottom: 17em;
-    margin: 0;
+    padding-top: 5em;
+    padding-bottom: 7em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 #history-container h2 {
@@ -136,7 +138,9 @@ nav:after {
     position: relative;
     font-size: 19px;
     color: #ffffff;
-    width: 75%;
+    width: 78%;
+    padding-top: auto;
+    padding-bottom: auto;
     padding-left: 10%;
     text-align: left;
     padding-bottom: 20px;
@@ -162,6 +166,31 @@ nav:after {
 .article-btn:hover {
     background-color: #fff;
     color: #68A67E;
+}
+
+.article-box input[type=submit]:hover {
+    background-color: #038C33;
+    color: #242625;
+}
+
+#event-container {
+    position: relative;
+    padding: 0 15em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title { 
+    font-size: 60px;
+    color: #666;
+    text-align: center;
+    height: 0px;
+}
+
+.detailing {
+    position: relative;
+    margin: 15%;
+    border: 2px solid #666;
+    list-style: none;
 }
 
 /* Seção de ações */
@@ -226,8 +255,4 @@ img {
     color: #fff;
     cursor: pointer;
     transition: .5s;
-}
-.article-box input[type=submit]:hover {
-    background-color: #038C33;
-    color: #242625;
 }
