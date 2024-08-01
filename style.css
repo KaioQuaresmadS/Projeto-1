@@ -173,9 +173,8 @@ nav:after {
     color: #242625;
 }
 
-#event-container {
+#event-container{
     position: relative;
-    padding: 0 15em;
     margin-left: auto;
     margin-right: auto;
 }
@@ -185,14 +184,24 @@ nav:after {
     text-align: center;
     height: 0px;
 }
-
-.detailing {
-    position: relative;
-    margin: 15%;
+.detailing{
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 15%;
     border: 2px solid #666;
+    width: 483px;
     list-style: none;
+    height: 190px;
+    text-align: right;
 }
-
+.time {
+    font-size: 16px;
+    float: left;
+    padding: 0 12rem;
+}
+.detailing {
+    /* display: inline-block; */
+}
 /* Seção de ações */
 
 .wrapper {
