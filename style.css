@@ -173,95 +173,33 @@ nav:after {
     color: #242625;
 }
 
-#event-container{
-    position: relative;
+
+.organizer {
+    margin-top: 8em;
+    margin-left: 5em;
+    width: 30%;
+    height: 20%;
+    border: solid 2px black;
+    border-radius: .625rem; /*Bordas*/
+}
+
+.title { 
+    text-align: center;
+    font-size: 80px;
+    color: #666;
     margin-left: auto;
     margin-right: auto;
 }
-.title { 
-    font-size: 60px;
-    color: #666;
-    text-align: center;
-    height: 0px;
-}
-.detailing{
-    display: inline-block;
-    margin-top: 10%;
-    margin-left: 15%;
-    border: 2px solid #666;
-    width: 483px;
-    list-style: none;
-    height: 190px;
-    text-align: right;
-}
-.time {
-    font-size: 16px;
-    float: left;
-    padding: 0 12rem;
-}
-.detailing {
-    /* display: inline-block; */
-}
-/* Seção de ações */
-
-.wrapper {
-    max-width: 1200px;
-    position: relative;
-    margin-left: auto; /*Para centralização*/
-    margin-right: auto;
+.text-container {
+    font-size: 25px;
+    margin-bottom: 5em;
+    float: right;
 }
 
-#blog-container {
-    text-align: center;
-    padding: 5em 0;
-}
-#blog-container .p-center{
-    margin-bottom: 60px;
-}
+.image {
+    border-radius: .25rem; /*Bordas*/
+    width: 12em;
+    height: 15em;
+    padding:  1em;
 
-.article-box{
-    display: inline-block;
-    width: 33%;
-    padding: 0 1%;
-
-}
-img {
-    width: 100%;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-.article-box h4 {
-    font-size: 24px;
-    margin-bottom: 15px;
-}
-
-.article-box h4 a {
-    text-decoration: none;
-    color: #666;
-}
-
-.article-date {
-    font-size: 12px;
-    margin-bottom: 15px;
-}
-.article-resume {
-    font-size: 14px;
-    margin-bottom: 30px;
-}
-
-.article-box input, .article-box select {
-    background-color: #fff;
-    border-radius: 5px;
-    border-color: transparent;
-    padding: 10px 20px;
-    font-size: 0 10px;
-}
-
-.article-box input[type=submit] {
-    background-color: #2E8C4F;
-    text-transform: uppercase;
-    color: #fff;
-    cursor: pointer;
-    transition: .5s;
 }
